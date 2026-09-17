@@ -138,6 +138,14 @@ def drift_index(pi, n):
     return float((1.0 - np.trace(pi)) / (1.0 - 1.0 / n))
 
 
+def bin_label(b):
+    """Human-readable label of a bin: '2016' for a single-year bin,
+    '2016-2017' for a bin that spans more than one year."""
+    if b["year_min"] == b["year_max"]:
+        return str(b["year_min"])
+    return f'{b["year_min"]}-{b["year_max"]}'
+
+
 def analyse_drift(bins, valid, cost, reg=SINKHORN_REG, threshold=BIRTH_DEATH_THRESHOLD):
     n = len(valid)
     records, events, plans = [], [], []
@@ -148,10 +156,9 @@ def analyse_drift(bins, valid, cost, reg=SINKHORN_REG, threshold=BIRTH_DEATH_THR
         a, b = a / a.sum(), b / b.sum()
         pi = ot.sinkhorn(a, b, cost, reg)
         records.append({
-            "transition": (f'{left["year_min"]}-{left["year_max"]} '
-                           f'to {right["year_min"]}-{right["year_max"]}'),
-            "from_label": f'{left["year_min"]}-{left["year_max"]}',
-            "to_label": f'{right["year_min"]}-{right["year_max"]}',
+            "transition": f'{bin_label(left)} to {bin_label(right)}',
+            "from_label": bin_label(left),
+            "to_label": bin_label(right),
             "from_midpoint": left["midpoint"],
             "to_midpoint": right["midpoint"],
             "drift_index": round(drift_index(pi, n), 4),
@@ -170,8 +177,8 @@ def analyse_drift(bins, valid, cost, reg=SINKHORN_REG, threshold=BIRTH_DEATH_THR
             if label:
                 events.append({
                     "topic": topic,
-                    "from_label": f'{left["year_min"]}-{left["year_max"]}',
-                    "to_label": f'{right["year_min"]}-{right["year_max"]}',
+                    "from_label": bin_label(left),
+                    "to_label": bin_label(right),
                     "from_midpoint": left["midpoint"],
                     "to_midpoint": right["midpoint"],
                     "event": label,
@@ -326,8 +333,7 @@ def run(in_dir, out_dir):
         for left, right, pi in plans_uniform:
             for i, t_from in enumerate(valid):
                 for j, t_to in enumerate(valid):
-                    handle.write(f'{left["year_min"]}-{left["year_max"]} to '
-                                 f'{right["year_min"]}-{right["year_max"]},'
+                    handle.write(f'{bin_label(left)} to {bin_label(right)},'
                                  f"{t_from},{t_to},{pi[i, j]:.8f}\n")
 
     # ---------- panel H: breakpoint tests
