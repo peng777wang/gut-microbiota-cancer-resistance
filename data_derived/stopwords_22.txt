@@ -1,0 +1,1 @@
+human,humans,nonhuman,review,article,animal,animals,controlled study,male,female,unclassified drug,drug effect,mouse,procedures,priority journal,animal experiment,therapy,adult,protein expression,efficacy,cells,expression

@@ -1,0 +1,15 @@
+documents total: 1532
+documents in topic -1: 341
+share of topic -1: 22.3 percent
+
+topic sizes (topic, documents):
+-1:341, 0:285, 1:239, 2:212, 3:85, 4:75, 5:68, 6:60, 7:53, 8:52, 9:31, 10:31
+
+most frequent terms inside topic -1:
+cancer, cell, treatment, patients, microbiota, immune, gut, therapy, disease, resistance
+
+interpretation note for the Discussion:
+documents in topic -1 carry no shared topical signal, so they contribute
+to the corpus but not to any topic level trend. Report the share above,
+state that the topic level analyses therefore describe the remaining
+documents, and report outlier_reallocation.csv as the sensitivity check.

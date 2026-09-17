@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or these derived data, please cite the accompanying article."
+title: "Reproducibility package: the ten-year evolution of gut microbiota research in cancer therapy resistance"
+abstract: "Code and derived data accompanying a bibliometric study of gut microbiota in cancer therapy resistance, including the deduplication pipeline, the BERTopic topic model, the D3TEM dynamic-evolution analysis, the quality and topical-relevance assessment, and the sensitivity analyses."
+type: software
+authors:
+  - family-names: "Wang"
+    given-names: "Peng"
+  - family-names: "Li"
+    given-names: "Wen"
+  - family-names: "An"
+    given-names: "Jianlei"
+  - family-names: "Sun"
+    given-names: "Guogui"
+contact:
+  - family-names: "Sun"
+    given-names: "Guogui"
+version: "1.0"
+date-released: "2026-09-17"
+license: MIT

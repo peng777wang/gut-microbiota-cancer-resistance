@@ -1,0 +1,4 @@
+series,cubic,quadratic,linear,intercept,R2,n_documents
+WoSCC,0.6599,-5.8666,27.554,7.3804,0.9396,978
+Scopus,0.4771,-3.5163,23.566,21.1594,0.9697,1236
+WoSCC_plus_Scopus,0.6632,-5.5513,33.8252,24.9063,0.9593,1532

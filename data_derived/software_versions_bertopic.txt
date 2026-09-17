@@ -1,0 +1,17 @@
+python 3.12.10
+platform Windows-11-10.0.26200-SP0
+
+bertopic==0.17.4
+sentence_transformers==6.0.1
+umap==0.5.12
+hdbscan==unknown
+sklearn==1.9.1
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+torch==2.14.0+cpu
+transformers==5.17.0
+ot NOT INSTALLED (ModuleNotFoundError)
+statsmodels NOT INSTALLED (ModuleNotFoundError)

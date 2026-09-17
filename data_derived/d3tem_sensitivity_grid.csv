@@ -1,0 +1,12 @@
+﻿k,scheme,cost,reg,threshold,bins,mean_drift,min_drift,max_drift,drift_range,min_transition_index,U_shape_preserved,birth_events,death_events,meta_cluster_sizes
+6,equal_width,uniform,0.05,0.5,10,0.1962,0.1056,0.3223,0.2167,7,True,25,13,"2,4,1,2,1,1"
+3,equal_width,uniform,0.05,0.5,10,0.1962,0.1056,0.3223,0.2167,7,True,25,13,"7,3,1"
+4,equal_width,uniform,0.05,0.5,10,0.1962,0.1056,0.3223,0.2167,7,True,25,13,"6,1,3,1"
+5,equal_width,uniform,0.05,0.5,10,0.1962,0.1056,0.3223,0.2167,7,True,25,13,"6,1,2,1,1"
+7,equal_width,uniform,0.05,0.5,10,0.1962,0.1056,0.3223,0.2167,7,True,25,13,"2,3,1,1,2,1,1"
+6,equal_frequency,uniform,0.05,0.5,10,0.1665,0.0847,0.253,0.1683,4,True,20,14,"2,4,1,2,1,1"
+6,equal_width,semantic,0.05,0.5,10,0.2538,0.1701,0.3679,0.1978,7,True,25,13,"2,4,1,2,1,1"
+6,equal_width,uniform,0.01,0.5,10,0.1954,0.1052,0.3216,0.2164,7,True,25,13,"2,4,1,2,1,1"
+6,equal_width,uniform,0.2,0.5,10,0.487,0.4409,0.5616,0.1207,7,True,25,13,"2,4,1,2,1,1"
+6,equal_width,uniform,0.05,0.4,10,0.1962,0.1056,0.3223,0.2167,7,True,26,20,"2,4,1,2,1,1"
+6,equal_width,uniform,0.05,0.6,10,0.1962,0.1056,0.3223,0.2167,7,True,23,12,"2,4,1,2,1,1"

@@ -1,0 +1,12 @@
+﻿Topic,Meta_cluster,PC1,PC2,Documents,Top10
+0,2,-0.03216424623601565,-0.012417930210209501,285,"microbiota, gut, cancer, microbiome, immune, immunotherapy, gut microbiota, tumor, patients, treatment"
+1,2,-0.050377880855253895,-0.014688736013929855,239,"crc, colorectal, cancer, colorectal cancer, nucleatum, tumor, cells, microbiota, cell, resistance"
+2,2,-0.054263742582407536,-0.026718783891415077,212,"cancer, tumor, immune, cell, resistance, pd, immunotherapy, checkpoint, drug, immune checkpoint"
+3,2,-0.06294695916243222,-0.029713024866760855,85,"pancreatic, pancreatic cancer, pdac, cancer, ductal, adenocarcinoma, tumor, gemcitabine, pancreatic ductal, resistance"
+4,1,-0.0014770531523067832,0.011205014964936423,75,"infection, infections, drug, resistant, aeruginosa, bacterial, phage, tb, mdr, animal"
+5,5,0.07919654078395422,0.02747546125060665,68,"fmt, difficile, transplantation, fecal, cdi, microbiota transplantation, fecal microbiota, microbiota, treatment, infection"
+6,1,-0.019980518551309452,0.011311203487151653,60,"liver, bile, acid, protein, transporter, drug, bile acid, metabolism, transporters, ba"
+7,4,0.03182504354715876,0.08843192684704808,53,"ibd, disease, inflammatory, bowel, inflammatory bowel, bowel disease, colitis, crohn, crohn disease, intestinal"
+8,4,0.04094706417719184,0.09934444611466409,52,"colitis, ulcerative, ulcerative colitis, uc, disease, treatment, inflammatory, patients, pouch, therapy"
+9,3,-0.07197972365451556,-0.039893308957899054,31,"hcc, liver, hepatocellular, carcinoma, hepatocellular carcinoma, tumor, immune, sorafenib, resistance, immunotherapy"
+10,6,0.1412214756859363,-0.11433626872419266,31,"transplantation, gvhd, graft, graft versus, versus, versus host, acute, cell transplantation, host disease, agvhd"

@@ -1,0 +1,5 @@
+set,dimension,fleiss_kappa,kappa_95CI,gwet_ac1,ac1_95CI,pairwise_agreement_pct,unanimous_pct
+main,quality,0.784,0.680-0.868,0.898,0.852-0.939,91.7,87.6
+main,relevance,0.775,0.700-0.845,0.841,0.778-0.895,88.2,82.4
+pilot,quality,0.649,0.337-0.860,0.91,0.827-0.972,92.0,88.0
+pilot,relevance,0.672,0.520-0.807,0.739,0.620-0.856,81.3,72.0

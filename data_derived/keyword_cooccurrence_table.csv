@@ -1,0 +1,63 @@
+﻿No.,Keyword,Occurrences,Total link strength,Status,Category
+1,human,477,5171,Excluded,Species
+2,humans,350,4155,Excluded,Species
+3,nonhuman,311,3784,Excluded,Species
+4,intestine flora,276,3468,Retained,Core theme
+5,review,268,2942,Excluded,Document/study type
+6,article,245,2715,Excluded,Document/study type
+7,animal,147,2211,Excluded,Species
+8,animals,147,2211,Excluded,Species
+9,gastrointestinal microbiome,148,2102,Retained,Core theme
+10,immunotherapy,290,1966,Retained,Core theme
+11,controlled study,147,1863,Excluded,Document/study type
+12,microbiome,284,1841,Retained,Core theme
+13,metabolism,163,1789,Retained,Core theme
+14,fecal microbiota transplantation,199,1777,Retained,Core theme
+15,male,146,1709,Excluded,Sex/Age
+16,tumor necrosis factor,131,1578,Retained,Core theme
+17,drug resistance,146,1553,Retained,Core theme
+18,tumor microenvironment,186,1488,Retained,Core theme
+19,microbiology,103,1476,Retained,Core theme
+20,female,130,1454,Excluded,Sex/Age
+21,dysbiosis,153,1441,Retained,Core theme
+22,unclassified drug,110,1428,Excluded,Generic/vague
+23,immunology,97,1426,Retained,Core theme
+24,signal transduction,105,1423,Retained,Core theme
+25,gut microbiota,328,1352,Retained,Core theme
+26,inflammation,160,1313,Retained,Core theme
+27,genetics,97,1293,Retained,Core theme
+28,drug effect,82,1273,Excluded,Generic/vague
+29,immune response,100,1227,Retained,Core theme
+30,colorectal cancer,190,1226,Retained,Core theme
+31,cancer immunotherapy,101,1225,Retained,Core theme
+32,mouse,81,1211,Excluded,Species
+33,pathology,87,1199,Retained,Core theme
+34,interleukin 6,90,1164,Retained,Core theme
+35,procedures,89,1149,Excluded,Document/study type
+36,priority journal,94,1145,Excluded,Document/study type
+37,microbiota,198,1126,Retained,Core theme
+38,animal experiment,77,1118,Excluded,Document/study type
+39,probiotic agent,85,1116,Retained,Core theme
+40,therapy,154,1086,Excluded,Vague term
+41,adult,105,1073,Excluded,Sex/Age
+42,protein expression,74,1069,Excluded,Generic/vague
+43,immune checkpoint inhibitor,84,955,Retained,Core theme
+44,inflammatory bowel disease,99,874,Retained,Core theme
+45,carcinogenesis,88,870,Retained,Core theme
+46,treatment response,70,855,Retained,Core theme
+47,immune checkpoint inhibitors,112,818,Retained,Core theme
+48,apoptosis,101,815,Retained,Core theme
+49,melanoma,87,801,Retained,Core theme
+50,ulcerative colitis,90,790,Retained,Core theme
+51,cancer,203,769,Retained,Core theme
+52,nivolumab,70,622,Retained,Core theme
+53,probiotics,85,611,Retained,Core theme
+54,bacteria,92,608,Retained,Core theme
+55,gut microbiome,110,568,Retained,Core theme
+56,chemotherapy,81,424,Retained,Core theme
+57,resistance,90,387,Retained,Core theme
+58,efficacy,86,328,Excluded,Vague term
+59,colorectal-cancer,104,321,Retained,Core theme
+60,intestinal-microbiota,70,301,Retained,Core theme
+61,cells,94,295,Excluded,Generic/vague
+62,expression,98,264,Excluded,Generic/vague
