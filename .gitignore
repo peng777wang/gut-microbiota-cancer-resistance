@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+pyenv/
+*.pkl
+*.npy
+*.tif
+*.tiff
