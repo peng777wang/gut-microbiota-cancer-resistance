@@ -4,8 +4,9 @@
 microbiota research in cancer therapy resistance (2016 - 2025)**
 Frontiers in Immunology - revised submission
 
-Archived on Zenodo: https://doi.org/10.5281/zenodo.22811196 (concept DOI, all versions;
-the version accompanying the manuscript is v1.0.3, archived under its own version DOI).
+Archived on Zenodo: https://doi.org/10.5281/zenodo.22811196 (concept DOI, always resolves to
+the latest version). The version accompanying the manuscript is v1.0.3, archived under its own
+version DOI: https://doi.org/10.5281/zenodo.22921458.
 
 This repository contains the code, the derived data and the documentation needed to
 reproduce the corpus, the topic model, the D3TEM dynamic-evolution analysis and the
@@ -190,10 +191,15 @@ Exact versions of the Python topic-modelling stack are also listed in
 
 ## Version
 
-`v1.0.1` accompanies the revised manuscript. It corrects the bin labels in the D3TEM drift
-and coupling tables, cleans the Unicode escapes in the deduplication audit tables, and adds
-the document-type breakdown and the full citation ranking of the corpus. Any later change is
-recorded in the release notes; please cite the version DOI.
+`v1.0.3` accompanies the revised manuscript. It adds a software version report generated
+inside the analysis environment actually used for the topic model and the D3TEM analysis
+(hdbscan 0.8.44, POT 0.9.7.post1, statsmodels 0.15.0), an updated D3TEM supplementary methods
+document, and the correspondingly updated checksum manifest, and it updates the repository
+title. `v1.0.2` was identical in content to `v1.0.1` and only triggered archiving. `v1.0.1`
+corrected the bin labels in the D3TEM drift and coupling tables, cleaned the Unicode escapes
+in the deduplication audit tables, and added the document-type breakdown and the full citation
+ranking of the corpus. Every change is recorded in the release notes; please cite the version
+DOI.
 
 ## Licence
 
