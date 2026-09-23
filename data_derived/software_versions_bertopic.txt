@@ -4,7 +4,7 @@ platform Windows-11-10.0.26200-SP0
 bertopic==0.17.4
 sentence_transformers==6.0.1
 umap==0.5.12
-hdbscan==unknown
+hdbscan==0.8.44
 sklearn==1.9.1
 pandas==3.0.5
 numpy==2.5.3
@@ -13,5 +13,11 @@ matplotlib==3.11.2
 seaborn==0.13.2
 torch==2.14.0+cpu
 transformers==5.17.0
-ot NOT INSTALLED (ModuleNotFoundError)
-statsmodels NOT INSTALLED (ModuleNotFoundError)
+ot==0.9.7.post1
+statsmodels==0.15.0
+
+# Other software
+R 4.5.2 (bibliometrix 5.5.0, ggplot2, tidyverse, data.table)
+CiteSpace 7.0.R0 (64-bit) Advanced
+VOSviewer 1.6.20
+biblioshiny (bibliometrix 5.5.0) for the conceptual structure map

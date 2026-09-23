@@ -1,8 +1,11 @@
 # Reproducibility package
 
-**From describing microbes to designing interventions: the ten-year evolution of gut
-microbiota research in cancer therapy resistance**
+**From describing microbes to designing interventions: a bibliometric study of gut
+microbiota research in cancer therapy resistance (2016 - 2025)**
 Frontiers in Immunology - revised submission
+
+Archived on Zenodo: https://doi.org/10.5281/zenodo.22811196 (concept DOI, all versions;
+the version accompanying the manuscript is v1.0.3, archived under its own version DOI).
 
 This repository contains the code, the derived data and the documentation needed to
 reproduce the corpus, the topic model, the D3TEM dynamic-evolution analysis and the
