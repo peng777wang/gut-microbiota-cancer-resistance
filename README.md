@@ -5,8 +5,8 @@ microbiota research in cancer therapy resistance (2016 - 2025)**
 Frontiers in Immunology - revised submission
 
 Archived on Zenodo: https://doi.org/10.5281/zenodo.22811196 (concept DOI, always resolves to
-the latest version). The version accompanying the manuscript is v1.0.3, archived under its own
-version DOI: https://doi.org/10.5281/zenodo.22921458.
+the latest version). The version accompanying the manuscript is v1.0.3; its version DOI is
+10.5281/zenodo.22921458.
 
 This repository contains the code, the derived data and the documentation needed to
 reproduce the corpus, the topic model, the D3TEM dynamic-evolution analysis and the
